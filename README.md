@@ -8,7 +8,7 @@ Before we begin, make sure to fork and clone this repository as we did yesterday
   ```
   cd ~/Desktop
   git clone <YOUR-REPO-URL>
-  cd y2s18-css2
+  cd y2s19-css2
   ```
 ## 2. Open the page
 
