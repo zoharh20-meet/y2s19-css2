@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    background: #4DC9CC;
+}
+
+.header {
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 32pt;
+    padding: 10px;
+}
+
+svg {
+    position: absolute;
+    left: calc(50% - 50px);
+    top: calc(50% - 50px);
+}
+
