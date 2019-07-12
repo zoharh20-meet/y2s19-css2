@@ -1,5 +1,5 @@
 # Lab 1
-## 1. Fork and clone
+## 0. Fork and clone
 
 Before we begin, make sure to fork and clone this repository as we did yesterday:
 
@@ -10,53 +10,19 @@ Before we begin, make sure to fork and clone this repository as we did yesterday
   git clone <YOUR-REPO-URL>
   cd y2s19-css2
   ```
-## 2. Open the page
-
-Open `lab1.html` in your browser. Take a look at it, before you make all your changes!
-
-## 3. Style the header
-
-- In `lab1_styles.css`, give the header class a bottom border of 5 pixel solid gray.
-- Give it an all-around padding of 10px.
-
-## 4. Style the sidebar
-
-- Give it a padding of 15px on the left and right, and 10px on the top and bottom.
-### Reload the page
-- Notice that the sidebar and main content are overlapping!
-#### Fix this issue 
-  - Make the by making the **total width**  of the sidebar be 200px 
-  - see the slide on total width and height to adjust your calculations)
-
-## 5. Style the main content
-- Give it a 5 pixel wide, solid, blue border.
-- Give it margins of 5 pixels all around.
-- Add padding on the left and right of 15 pixels, and on the bottom of 10 pixels.
-
-
-Your page should look like this when you're done:
-![lab1_final](https://preview.ibb.co/dKbbyo/d3l1.png)
-
-## Extras!
-1. Look up why there has to be `margin:0` for the body.
-2. Give the title a box shadow.
-3. Give the title text shadow.
-4. Remove the underline from the links in the sidebar.
-
-# Lab 2
-
+  
 ## 1. Open the page
 
-- Open `lab2.html` in your browser and take a look at it!
+- Open `lab1.html` in your browser and take a look at it!
 
 ## 2. Add hover to your link!
 
-- In `lab2_styles.css`, add a `hover` selector, so every link has a blue background color when you hover over it.
-- Open `lab2.html` in your browser and see what happens!
+- In `lab1_styles.css`, add a `hover` selector, so every link has a blue background color when you hover over it.
+- Open `lab1.html` in your browser and see what happens!
 
 ## 3. Hover with IDs.
-- In `lab2.html`, choose a specific paragraph, and give it an ID of `important_paragraph`.
-- In `lab2_styles.css`, add a hover selector for  this paragraph. Hovering over this paragraph should make the background color yellow, and the text size 40 point.
+- In `lab1.html`, choose a specific paragraph, and give it an ID of `important_paragraph`.
+- In `lab1_styles.css`, add a hover selector for  this paragraph. Hovering over this paragraph should make the background color yellow, and the text size 40 point.
 
 *Hint: Check out the font-size attribute*
 
@@ -65,16 +31,38 @@ Your page should look like this when you're done:
 - When you hover over any of the paragraphs in this class, make the font color blue.
 
 ## Bonus: Complex Hovering!
-- Add a `<span>` element, right before the last paragraph in `lab2.html`, containing the text `What happens if you hover over me?`, with ID `span_cover`.
-- Now, add an additional div in `lab2.html`, with ID `hidden_div`. This div should contain the last paragraph of text in your website. Make sure this is below the `<span>` element you previously created!
-- Make sure you can see this text, if you open `lab2.html` in your browser!
-- Select this div, by ID, and add the rule `display: none;`, as one of its rules in `lab2_styles.css`.
-- Open `lab2.html` in your browser - does anything look different? 
-- Add a rule in `lab2_styles.css` which says:
+- Add a `<span>` element, right before the last paragraph in `lab1.html`, containing the text `What happens if you hover over me?`, with ID `span_cover`.
+- Now, add an additional div in `lab1.html`, with ID `hidden_div`. This div should contain the last paragraph of text in your website. Make sure this is below the `<span>` element you previously created!
+- Make sure you can see this text, if you open `lab1.html` in your browser!
+- Select this div, by ID, and add the rule `display: none;`, as one of its rules in `lab1_styles.css`.
+- Open `lab1.html` in your browser - does anything look different? 
+- Add a rule in `lab1_styles.css` which says:
 ```
 #span_cover:hover + #hidden_div {
     display: block;
 }
 ```
-- Open `lab2.html` in your browser - what does it look like now?
+- Open `lab1.html` in your browser - what does it look like now?
 *Go on W3 to figure out how this rule works!*
+
+# Lab 2
+- to be continued
+
+# Lab 3
+## 1. Make some `@keyframes`
+- In `bounce_styles.css`, make a `@keyframes` component called `bounce`, with 2 frames, at 0% and 100%.
+
+- Make it so the element has 0 opacity in the first frame and is scaled down to 1/10th of its usual size (using the `transform: scale()`) property
+
+- Make the element be full-size and have opacity 1 in the final frame (the one labelled 100%)
+
+## 2. Animate the circle
+- In the CSS selector for the `svg` tag, add in the `animation` property
+
+- Make the ball bounce for 2 seconds
+  - If you need a hint, look at the lecture slides [here](http://go.meet.sh/anim-lec) and the reference website [here](https://robots.thoughtbot.com/css-animation-for-beginners)
+
+## 3. Make it bounce infinitely
+- Use `animation-iteration-count` property, or use the shorthand
+  - If using the shorthand, remember to put values for the properties you aren't setting
+  - Again, for hints, look at the [reference website](https://robots.thoughtbot.com/css-animation-for-beginners)
