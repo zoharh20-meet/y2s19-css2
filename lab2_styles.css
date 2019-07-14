@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    font-size: 42pt;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: blue;
+    opacity: .5;
+}
+
+p {
+    color: green;
+    font-size: 24pt;
+    background-color: lightgreen;
+    opacity: .5;
+    width: 60%;
+}
+
+a {
+    color:red;
+    background-color: pink;
+    opacity: .5;
+}
+
+span {
+	background-color: yellow;
+    opacity: 1;	
+}
+
+form {
+	height: 200px;
+	width: 400px;
+	background-color: orange;
+    opacity: .9;	
+}
+
+input {
+	background-color: purple;
+    opacity: 1;
+}
+
+div {
+	height: 100px;
+	width: 400px;
+	background-color: blue;
+    opacity: .7;
+    	
+}

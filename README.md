@@ -46,7 +46,19 @@ Before we begin, make sure to fork and clone this repository as we did yesterday
 *Go on W3 to figure out how this rule works!*
 
 # Lab 2
-- to be continued
+## 1. Center Yourself
+- Open `lab2-centering` in your browser, we've added some extra content - and all of the content is color-coded. Check out the linked style sheet to see what element is what color. 
+
+- Your task in this lab is to make the webpage look like this: 
+![Alt text](centered_page.png?raw=true "Title")
+- But the catch is that you can only edit the style sheet!
+
+- Hint - to tell if something is block vs inline, look at the background color! Is the background just big enough to fit? Also, remember inline elements don't make newlines (so they would need a `<br>` element for newlines).
+
+- Hint - the text "Survey Time" is a `p`, so it gets centered when you center all `p` elements. But unlike the other `p`'s, this one is inside a `div`. How can you use advanced selectors to un-center this element? Remember, what is the left-margin of something not centered?
+
+## 2. Super Selectors
+- Go have some fun with selectors [here](https://flukeout.github.io/)
 
 # Lab 3
 ## 1. Make some `@keyframes`
